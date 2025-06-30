@@ -1,0 +1,342 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-style: normal;
+}
+
+#res-navbar {
+  display: flex;
+
+  justify-content: center;
+  gap: 46px;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 0px 27px 4px lightgrey;
+  margin-bottom: 25px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  background-color: white;
+  z-index: 1;
+}
+
+.nav-anchors {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 200;
+  /* font-family: sans-serif; */
+}
+
+.nav-anchors:hover {
+  color: #ff5200;
+}
+
+#special-hover:hover {
+  span {
+    color: #ff5200;
+  }
+  p {
+    color: rgb(180, 179, 179);
+  }
+}
+
+/* Food Categories */
+
+/* यह "What's on your mind?" वाले सेक्शन की CSS है */
+
+#button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories {
+  padding: 10px;
+  background-color: white;
+  /* border: 1px solid; */
+  width: 80vw;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.categories h1 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.category-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* padding-bottom: 20px; */
+  border-bottom: 1px solid lightgrey;
+}
+
+.category-item {
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.category-icon img {
+  width: 119px;
+}
+
+.category-icon img:hover{
+  border-bottom: 1px solid #ff5200;
+  
+  /* background-color: #ff5200; */
+      /* box-shadow: 20px 0px 15px 1px #ff5200; */
+}
+
+/* second restaurant list */
+.categories2 {
+  padding: 10px;
+  background-color: white;
+  /* border: 1px solid; */
+  width: 80vw;
+  margin: auto;
+}
+
+.categories2 h1 {
+  font-size: 13px;
+  font-weight: 900;
+  padding: 8px;
+}
+
+.category-list2 {
+  display: flex;
+  gap: 105px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.category-item2 {
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.category-icon2 img {
+  width: 212px;
+  height: 170px;
+  border-radius: 17px;
+}
+
+#category-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* position: relative; */
+  padding-left: 10px;
+  
+  /* border: 1px solid; */
+}
+
+#category-text img{
+    width: 14px;
+    position: relative;
+    /* top: -56px; */
+    top: 28px;
+    left: 0px;
+}
+
+#category-text h3{
+  font-size: 13px;
+}
+
+#category-text p{
+  color: grey;
+  font-size: 13px;
+}
+
+/* Section 3 */
+
+#section-3{
+  padding: 10px;
+  background-color: white;
+  /* border: 1px solid; */
+  width: 80vw;
+  margin: auto;
+}
+
+#section-3 h2{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.btn33{
+  padding: 8px;
+  border-radius: 24px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+/* Grid */
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+    
+.div1 {
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-row: span 2 / span 2;
+}
+
+.div3 {
+    grid-row: span 2 / span 2;
+}
+
+.div4 {
+    grid-row: span 2 / span 2;
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div6 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div7 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div8 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div9 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 5;
+}
+
+.div10 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 5;
+}
+
+.div11 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 5;
+}
+
+.div12 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 5;
+}
+        
+/* Grid End */
+
+
+/* section 3 text styling */
+
+#category-text3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  padding-left: 10px;
+}
+
+#category-text3 h3{
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#category-text3 img{
+    width: 14px;
+    position: relative;
+    /* top: -56px; */
+    top: 2px;
+    left: -3px;
+}
+
+#category-text3 h3{
+  font-size: 14px;
+}
+
+#category-text3 p{
+  color: grey;
+  font-size: 13px;
+}
+
+#footer{
+  height: 88vh;
+  background-color: #F0F0F5;
+}
+
+#footer-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-top: 30px;
+}
+
+#footer-1 img{
+  width: 150px;
+}
+
+#footer-2{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+}
+
+#footer-2 .box{
+  /* background-color: chartreuse; */
+  width: 15vw;
+  height: 30vh;
+}
+#footer-2 h3{
+  margin-bottom: 10px;
+}
+#footer-2 ul{
+  list-style-type: none;
+  /* padding-left: 10px; */
+  
+}
+
+#footer-2 ul li{
+  padding: 8px;
+  color: #484a4d;
+  font-size: 12px;
+}
+
+.hr{
+  border-bottom: 1px solid #ff5200;
+}
